@@ -3,28 +3,31 @@
 ![AirForce1s](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FjeMmhPrGyoBoY%2Fgiphy.gif&f=1&nofb=1)
 
 ## Overview
+
 In this lab, we'll used what we learned about working in the mongo shell to practice interacting with a new database of sneakers.
 
 ## Getting started
+
 - `Fork` and `Clone`
-- Open in VSCode so you can *paste your answers* into the ReadMe
+- Open in VSCode so you can _paste your answers_ into the ReadMe
 - Open Terminal
 - Tighten those laces
 
 ## Instructions
 
 Below is an array of objects:
+
 ```js
 const products = [
-  { model: "4281", brand: "Nike", color: "Red" },
-  { model: "4363", brand: "Nike", color: "Black" },
-  { model: "4365", brand: "Nike", color: "White" },
-  { model: "4490", brand: "Nike", color: "White" },
-  { model: "130014", brand: "Nike", color: "Cream" },
-  { model: "4361", brand: "Nike", color: "White" },
-  { model: "130169", brand: "Nike", color: "Teal" },
-  { model: "4401", brand: "Nike", color: "Maroon" },
-  { model: "130182", brand: "Nike", color: "Gold" },
+  { model: '4281', brand: 'Nike', color: 'Red' },
+  { model: '4363', brand: 'Nike', color: 'Black' },
+  { model: '4365', brand: 'Nike', color: 'White' },
+  { model: '4490', brand: 'Nike', color: 'White' },
+  { model: '130014', brand: 'Nike', color: 'Cream' },
+  { model: '4361', brand: 'Nike', color: 'White' },
+  { model: '130169', brand: 'Nike', color: 'Teal' },
+  { model: '4401', brand: 'Nike', color: 'Maroon' },
+  { model: '130182', brand: 'Nike', color: 'Gold' }
 ]
 ```
 
@@ -71,7 +74,8 @@ Use the MongoDB lesson to solve for the following:
 1. Find all the Air Jordans that have the model number: **4363**.
 
 ```sh
-<--- solution goes here !--->
+db.products.find({model :"4363"})
+
 ```
 
 2. Find all shoes that are either **red** or **black**.
@@ -121,6 +125,7 @@ Write your queries below:
 ![Jordan](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F66.media.tumblr.com%2Fa46d189bb8c3489dd21537e8478f61c4%2Ftumblr_p44eax11pT1r2cri9o2_500.gifv&f=1&nofb=1)
 
 ## Resources
+
 - [Intro to MongoDB](https://github.com/SEI-R-4-26/u2_lesson_mongoDB)
 - [Mongo Shell](https://docs.mongodb.com/manual/mongo/)
 - [MongoDB Glossary](https://docs.mongodb.com/manual/reference/glossary/)
